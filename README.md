@@ -11,7 +11,7 @@ This space is for the Data Engineering Zoomcamp Learning by [DataTalksClub](http
 
 (DataTalksClub)
 
-##Objective 
+## Objective 
 
 Its a weekly online sessions focus on to develop oneself into a Data Engineering path. 
 
@@ -28,7 +28,7 @@ End of the Programme we would be focuing on the standalone project to build a Da
 
 [Technologies We will Learn](#Technologies)
 
-###Week 1 Learning
+### Week 1 Learning
 
 **Required Software Installation**
 
@@ -46,7 +46,7 @@ End of the Programme we would be focuing on the standalone project to build a Da
 	* *SQL* - Data Analysis & Exploration
 	* *Airflow/Prefect* Pipeline orchestration
 
-###FAQ's
+### FAQ's
 
 * How Much time we need to spend on an Avg?
    * 3 to 4 hours in a week would suffice, and this varies based on everone's own  pace.
@@ -65,13 +65,13 @@ End of the Programme we would be focuing on the standalone project to build a Da
 	* Learning Algorithms and Data Structures helps a lot in the field and interview perspective
 
 
-###Book Recommendations
+### Book Recommendations
 
 [Designing Data Intensive Applications - Martin Kleppmann](https://learning.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 
 [Database Internals - Alex Petrov](https://learning.oreilly.com/library/view/database-internals/9781492040330/)
 
-###Reference
+### Reference
 
 DataTalksClub (no date) DataTalksClub/data-engineering-zoomcamp: Free Data Engineering Course!, GitHub. Available at: [https://github.com/DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)  
 
