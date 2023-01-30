@@ -32,7 +32,20 @@ End of the Programme we would be focuing on the standalone project to build a Da
 
 **Required Software Installation**
 
+* Docker
+* Google Cloud CLI
+* Python
 
+
+#### *Docker*
+
+What is a Docker?
+
+* 
+
+Docker-compose
+
+#### *Google Cloud Platform*
 
 ### Technologies
 
@@ -75,3 +88,23 @@ End of the Programme we would be focuing on the standalone project to build a Da
 
 DataTalksClub (no date) DataTalksClub/data-engineering-zoomcamp: Free Data Engineering Course!, GitHub. Available at: [https://github.com/DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)  
 
+
+
+
+### Issues faced and fixes
+
+**OpenJDK Issues**
+
+
+* When I run `java -version` and get **`The operation couldn’t be completed. Unable to locate a Java Runtime. in MAC m2`** it means that the OpenJDK which was installed from **_brew_** dint create the symlink properly. To fix the same please the below command.
+
+
+`sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk`
+
+
+**Docker installation Issues**
+
+
+* Use **`brew install docker`** to install docker in Mac M1/M2, incase of the following daemon error `Cannot connect to the Docker daemon on macOS` then you should be installing docker-machine `brew install docker-machine`
+* Attaching some useful links for the docker installation
+	* Docker installation by [Vivek Suresh](https://medium.com/@vivekslair/setting-up-docker-in-macos-ee36d37b3be2)
